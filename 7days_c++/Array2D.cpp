@@ -147,7 +147,7 @@ ptr[i][j] = *(ptr + i) + j) // *(ptr + i) : using pointer find value
 mat ith row vaue *(*(mat + i) + j) // j+:to find the column value from selected row
 */
 //find the number  
-/*#include <iostream>
+#include <iostream>
 using namespace std; 
 int arrNum (int mat[][3], int n, int m){
 //	n = 2, m = 3; 
@@ -199,4 +199,4 @@ int main (){
 	transposeMat(arr,3, 3 );
 	return 0; 
 }
-*/
+
